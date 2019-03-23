@@ -1,0 +1,31 @@
+{
+  "name": "vue-ast-parse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -w --config webpack.config.js --mode development --color --progoress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloyangzhi/vue-ast-parse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helloyangzhi/vue-ast-parse/issues"
+  },
+  "homepage": "https://github.com/helloyangzhi/vue-ast-parse#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "he": "^1.2.0"
+  }
+}
